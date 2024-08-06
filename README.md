@@ -1,27 +1,81 @@
-# AdmPerf
+Here's a sample README for your project:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+# ADM Perf
 
-## Development server
+This project is a website for ADM Perf, a company specialized in the reprogramming and unlocking of features for BMW and Volkswagen group vehicles. The site showcases the company's services, portfolio, and contact information.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
 
-## Code scaffolding
+- [ADM Perf Website](#adm-perf-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- Home page with a brief introduction and highlights of the services.
+- About page detailing the company's mission and services.
+- Portfolio showcasing the different projects and cars worked on.
+- Contact page with a form to reach out to ADM Perf.
+- Responsive design for optimal viewing on various devices.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- Angular 17
+- Tailwind CSS
+- Formspree (for the contact form)
+- DALL·E (for generating background images)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installation
 
-## Running end-to-end tests
+To get a local copy of the project up and running, follow these steps:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clone the repository:**
 
-## Further help
+   ```bash
+   git clone https://github.com/adamelkarki/adm-perf.git
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd adm-perf
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. **Start the development server:**
+
+   ```bash
+   ng serve
+   ```
+
+2. **Open your browser and visit:**
+
+   ```plaintext
+   http://localhost:4200
+   ```
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create your feature branch: `git checkout -b feature/YourFeature`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/YourFeature`.
+5. Open a pull request.
+
+## License
+
+#### This project is licensed under Adam El Karki's License.
