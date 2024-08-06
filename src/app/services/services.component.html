@@ -1,1 +1,71 @@
-<p>services works!</p>
+<div
+  class="bg-cover bg-center flex flex-col mx-auto justify-center items-center py-16 px-8"
+  id="services"
+  style="background-image: url('assets/services-bg.jpg')"
+>
+  <h2 class="text-white text-4xl font-bold mb-6">On s'occupe de vous !</h2>
+  <div
+    class="grid grid-cols-1 xl:grid-cols-2 gap-64 m-8 rounded-2xl p-16 backdrop-filter backdrop-blur-sm"
+  >
+    <!-- Card 1 -->
+    <div
+      class="flex flex-col w-80 bg-white bg-opacity-70 text-[#374151] p-6 rounded-lg"
+    >
+      <figure class="flex justify-center items-center">
+        <img
+          src="./assets/card1.jpg"
+          alt="Card Preview"
+          class="rounded-t-2xl h-56 w-full object-cover"
+        />
+      </figure>
+      <div class="flex flex-col p-4 h-full">
+        <div class="text-2xl text-center font-bold pb-6">
+          Reprogrammation moteur
+        </div>
+        <div class="text-center text-lg pb-12">
+          Améliorez les performances de votre moteur avec nos solutions de
+          reprogrammation sur mesure.
+        </div>
+        <div class="flex pt-10">
+          <button
+            routerLink="/services"
+            class="w-full bg-black text-white font-bold text-base p-3 rounded-lg hover:bg-orange-700 active:scale-95 transition-transform transform"
+          >
+            En savoir plus
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div
+      class="flex flex-col w-80 bg-white bg-opacity-70 text-[#374151] p-6 rounded-lg"
+    >
+      <figure class="flex justify-center items-center">
+        <img
+          src="./assets/card2.jpg"
+          alt="Card Preview"
+          class="rounded-t-2xl h-56 w-full object-cover"
+        />
+      </figure>
+      <div class="flex flex-col p-4 h-full">
+        <div class="text-2xl text-center font-bold pb-6">
+          Déblocage de fonctionnalités
+        </div>
+        <div class="text-center text-lg pb-12">
+          Repoussez les limites de votre véhicule, tout en gardant un équilibre
+          entre performances et fiabilité.
+        </div>
+        <div class="flex pt-10">
+          <button
+            routerLink="/services"
+            class="w-full bg-black text-white font-bold text-base p-3 rounded-lg hover:bg-orange-700 active:scale-95 transition-transform transform"
+          >
+            En savoir plus
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-contact></app-contact>
