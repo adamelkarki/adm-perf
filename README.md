@@ -1,5 +1,3 @@
-Here's a sample README for your project:
-
 # ADM Perf
 
 This project is a website for ADM Perf, a company specialized in the reprogramming and unlocking of features for BMW and Volkswagen group vehicles. The site showcases the company's services, portfolio, and contact information.
